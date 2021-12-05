@@ -74,7 +74,7 @@ In the following section, you will get a little practice using `touch` and `mkdi
 
 👩‍💻 Use `mkdir` and `touch` to create the directories/files in the structure illustrated below:
 
-```sh
+```
 |--secretLibraryProject
     |
     |--README.md
@@ -95,51 +95,51 @@ In the following section, you will get a little practice using `touch` and `mkdi
        |--secretLibrarian.js
        |--patron.js
        |--librarySystem.js
-```     
+```
+```            
 Yes, mine is now in /tmp/turing/m1pw/tech/sec1/trm_prac/secretLibraryProject
-
 ```
 ```
 788  cd /
-  789  pwd
-  790  cd tmp
-  791  ls
-  792  cd turing
-  793  ls
-  794  mkdir m1pw
-  795  ls
-  796  cd m1pw
-  797  mkdir tech
-  798  ls
-  799  cd tech
-  800  mkdir sec1
-  801  cd sec1
-  802  mkdir trm_prac
-  803  cd trm_prac
-  804  mkdir secretLibraryProject
-  805  cd secretLibraryProject
-  806  cat > README.md
-  807  cat > package.json
-  808  mkdir lib test
-  809  ls
-  810  cd lib
-  811  pwd
-  812  clear
-  813  cat > secretLibrary.js
-  814  cat secretBook.js
-  815  cat > secretBook.js
-  816  cat > secretLibrarian.js
-  817  cat > patron.js
-  818  cat > librarySystem.js
-  819  ls
-  820  cd ../test
-  821  pwd
-  822  cp ../lib/librarySystem.js librarySystem.js
-  823  ls
-  824  cp ../lib/patron.js patron.js
-  825  cp ../lib/secretBook.js secretBook.js
-  826  cp ../lib/secretLibrarian.js secretLibrarian.js
-  827  cp ../lib/secretLibrary.js secretLibrary.js
+789  pwd
+790  cd tmp
+791  ls
+792  cd turing
+793  ls
+794  mkdir m1pw
+795  ls
+796  cd m1pw
+797  mkdir tech
+798  ls
+799  cd tech
+800  mkdir sec1
+801  cd sec1
+802  mkdir trm_prac
+803  cd trm_prac
+804  mkdir secretLibraryProject
+805  cd secretLibraryProject
+806  cat > README.md
+807  cat > package.json
+808  mkdir lib test
+809  ls
+810  cd lib
+811  pwd
+812  clear
+813  cat > secretLibrary.js
+814  cat secretBook.js
+815  cat > secretBook.js
+816  cat > secretLibrarian.js
+817  cat > patron.js
+818  cat > librarySystem.js
+819  ls
+820  cd ../test
+821  pwd
+822  cp ../lib/librarySystem.js librarySystem.js
+823  ls
+824  cp ../lib/patron.js patron.js
+825  cp ../lib/secretBook.js secretBook.js
+826  cp ../lib/secretLibrarian.js secretLibrarian.js
+827  cp ../lib/secretLibrary.js secretLibrary.js
 ```
 
 Don't worry about putting any text or content into these files. For now, create this structure with empty files.
@@ -210,7 +210,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
 
-    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
+    - [x] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
     - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
