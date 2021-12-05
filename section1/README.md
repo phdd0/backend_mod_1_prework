@@ -214,7 +214,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
     - [x] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
-    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
+    - [x] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
     - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
