@@ -43,8 +43,14 @@ Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/
 * Growth mindset
   * Wouldn't be here at Turing without one
 * Teach others??? WHAT???
-  * Joking. I did a whole career as an Army Leader teaching others. Just today, which is day 2 after Session 2 of mod0, I literally typed this into Slack "
-
+  * Joking. I did a whole career as an Army Leader teaching others. Just today, which is day 2 after Session 2 of mod0, I literally typed this into Slack:
+     ```
+     Done with HW2. Happy to assist later today when I get back from dumb errands I can't easily avoid. I'll be starting on mod1 pre-work soon as I can get back to my desk. 		Still somewhat within / consistent with my time budgeting so far. I feel roughly "ahead" and feel if I strive to stay ahead, it lowers the probability I start to 		fall behind. I feel for anyone working full time right now! Thoughts anyone?
+      ```
+  * I LOVE teaching, tutoring, and helping people understand difficult subtle abstract things
+* I do SO much to care for my brain! You have no idea. Keto is one of those things I'm doing in particular for the course. Designing my meal plans and grocery lists after mod0 unless I can get ahead enough on the mod1PW then I'll start that project even earlier
+* Short breaks
+  * Yeah, we maybe knew about Pomodoro in the Army maybe before you guys did! That habit is a major component going back over 10 years at least in all technical or heavy brain work done in parts of the Army. Don't mind me. I'm old! Crusty!
 
 ## Part B Terminal
 
