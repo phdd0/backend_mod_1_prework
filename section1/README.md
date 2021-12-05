@@ -36,6 +36,16 @@ Here's what we ask you do:
 
 Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
+* "Super learners read a lot"
+  * Well, been doing that since 3rd grade in high volume whenever life and requirements permitted. US military career certainly interuppted my reading but it's gone up since retirement again. I guess I DID manage to read one William Faulkner novel while deployed. Pretty amazing. Not the novel. It sucked. But I hit that bucket list item of actually reading the fairly unreadable Faulkner at least once. Light in August was the novel. Normally I read stuff more like one of the books I'm reading now: Wittgenstein's Remarks on the Foundations of AI. Yep. More my speed. I'm both a philosopher and an engineer merely by my education, so reading is definitely a thing.
+* Learning is a journey? Process? Whaaaaa???
+  * Of course, isn't that indubitable? Life has really been that since I've been a child, for me anyway. Can't understand folks who don't already know this.
+* Growth mindset
+  * Wouldn't be here at Turing without one
+* Teach others??? WHAT???
+  * Joking. I did a whole career as an Army Leader teaching others. Just today, which is day 2 after Session 2 of mod0, I literally typed this into Slack "
+
+
 ## Part B Terminal
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
