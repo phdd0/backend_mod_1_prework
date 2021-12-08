@@ -75,3 +75,6 @@ p "Hello World!"
     * `gets` can grab user input and `.chomp` with `gets` as in `gets.chomp` will grab the input but snip the \n first 
 
 1. Name and describe two common string methods:
+    
+    * .length applied to any string variable as in `<name>.length` returns the number of charaters in the string
+    * .
