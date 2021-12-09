@@ -77,4 +77,7 @@ p "Hello World!"
 1. Name and describe two common string methods:
     
     * .length applied to any string variable as in `<name>.length` returns the number of charaters in the string
-    * .
+    * `.split` is really interesting
+    * `.split` really defaults to splitting either sentences with words or lists of characters or strings seperated by spaces
+    * `.split` will split a continuous string of characters at any regular seperator of words or strings
+    * `.split` will split a continuous string of characters with no separators by not splitting anywhere but by placing the entire contents in any array as 0th element
