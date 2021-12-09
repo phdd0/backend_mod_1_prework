@@ -1,0 +1,23 @@
+author mistake first time typing the above: 'ex4.rb:14: undefined local var or 
+method 'carpool_capacity' for main:Object (NameError). Hypothesis: author 
+forgot to defiine the var he had in mind for capacity of the whole pool. He 
+must simply have forgotten to declare it. I will try and gen this error by 
+commenting out. will document my test here: 
+
+I got:
+
+4vrn.rb:23:in `<main>': undefined local variable or method 
+`pool_cap' for main:Object (NameError)
+
+Hypothesis correct...
+
+Author says to use line numbers and explain: pretty simple, the interpreter 
+reads and complies with instructions a line at a time. when it gets to the line
+where an undefined variable is called, it generates this error. that way the
+programmer knows where the error is occuring approximately in his/her/their
+instructions to machine.
+
+more drills:
+
+1. 4.0 was not necessary and wouldn't be for this program that needs only ints
+not floats. if we swap 4.0 for 4 result is the same.
