@@ -10,7 +10,9 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+# SEE IF_ST_WTHR_EX.RB FOR MY SOLUTION TO 'OTHER THAN COAT'
+
+  weather = 'icy'
 
   if weather == 'sunny'
     p "sunscreen"
@@ -27,27 +29,34 @@
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
 
+#####################################################################
 
-##################
 # Using the num_quarters variable defined below, determine
 # if you have enough money to buy a gumball. A gumball costs
 # two quarters.
 
-# Right now, the program will print
-# out both "I have enough money for a gumball" and
-# "I don't have enough money for a gumball". Write a 
-# conditional statement that prints only one or the other.
+# Right now, the program will print out both "I have enough money 
+# for a gumball" and "I don't have enough money for a gumball". 
+# Write a conditional statement that prints only one or the other.
 
 # Experiment with manipulating the value held within num_quarters
-# to make sure both conditions can be achieved.
+# to make sure both conditions can be achieved, given:
+
+   # num_quarters = 0
+   # puts "I have enough money for a gumball"
+   # puts "I don't have enough money for a gumball"
 
 num_quarters = 0
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+# Now outputs "...don't have enough" but if you set the variable
+# equal to 2 or higher integers and it will switch
 
-
-#####################
+####################################################################
 # Using the variables defined below, write code that will tell you
 # if you have the ingredients to make a pizza. A pizza requires 
 # at least two cups of flour and sauce.
@@ -63,3 +72,16 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if has_sauce == true
+  puts "Sauce criterion: PASS"
+    if cups_of_flour >= 2
+      puts "Flour Limiting Reagent: REACHED"
+      puts "Yes you CAN make a pizza!"
+    else
+      puts "Flour Limiting Reagent: FAILED!"
+      puts "NO you CANNOT make a pizza!"
+end
+else
+  puts "You don't even PASS the Sauce Criterion so I don't care how much flour you got!"
+end
