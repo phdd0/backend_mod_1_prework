@@ -31,6 +31,10 @@ Read the three blog posts that follow:
 
 Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
 
+* Okay Questions Post - Seems obviously compatible with the posture of any learning organization and should at least be aspirational for all organizations
+* Better Questions Post - Timing > great diplomatic and political note, don't waste others' time; Rubber Duck Personification Routine (RDPRayer); 1 ? at a time
+* Ridic Questions Post - No. We really CAN avoid basic obvious questions; Google not relevant or accurate? only if your Search Fu sucks; if you are out of depth, know that and ask for help sooner
+
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 
 Now that you understand the importance of asking questions, read the [Turing guide on asking questions](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to ensure that you know the best way to ask the questions you may have!
