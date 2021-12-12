@@ -39,3 +39,13 @@ H2
 ...
 
 [ArbRefTxt]: http://airbnb.com
+
+[Link Here and just type open square bracket, '1', close bracket after, define at bottom][1]
+
+
+
+
+
+
+[1]: https://www.reddit.com
+
