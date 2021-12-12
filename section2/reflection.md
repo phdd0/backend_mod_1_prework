@@ -1,10 +1,10 @@
-## Section 2 Reflection
+## Section 2 Reflection #####################################################################################################################################
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-* I tend to ask questions that are often too abstract or general for most tastes. I want to see if others see what I see behind things. If I have a question I truly need to ask, then I will ask it according to the standards of the community, rather like Reddit behavior for example. I think I usually know when to ask but can always work on honing actually following that and not rushing to ask a question prior to conducting my own processes first.
+  * I tend to ask questions that are often too abstract or general for most tastes. I want to see if others see what I see behind things. If I have a question I truly need to ask, then I will ask it according to the standards of the community, rather like Reddit behavior for example. I think I usually know when to ask but can always work on honing actually following that and not rushing to ask a question prior to conducting my own processes first.
 
-### If Statements
+### If Statements ###########################################################################################################################################
 
 2. What is a conditional statement? Give three examples.
 
@@ -76,14 +76,51 @@
   * a conditional returns true or false so could be used to easily create a new boolean variable and set its value
   * we may need to nest them sometimes
 
-### Methods
+### Methods ################################################################################################################################################
 
 1. In your own words, what is the purpose of a method?
 
-1. Create a method named `hello` that will print `"Sam I am"`.
+  * methods enable code-reuse within the same or linked instruction sets
 
-1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+2. Create a method named `hello` that will print `"Sam I am"`.
 
-1. How would you call or execute the method that you created above?
+  * ```
+    
+    def hello()
+      p "Sam I am"
+    end
 
-1. What questions do you have about methods in Ruby?
+   ```
+3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+
+  * ```
+    
+    def hello_someone(name)
+      p "#{name} I am"
+    end
+
+   ```
+
+4. How would you call or execute the method that you created above?
+
+  * I'd type:
+  
+    ```
+    hello_someone("Smashmouth")
+
+    ```
+  * ... if I wanted output "Smashmouth I am"
+
+5. What questions do you have about methods in Ruby?
+
+  * to help I'd teach the concept along with the idea of a free vs bound variable
+  
+  * in a Ruby method we create essentially a 'disappearing' free variable to 
+    pass in a value - from a bound variable - only when we call the method
+  
+  * the power and convenience of it is that we create the free variable ('name')
+    as in the Smashmouth example above, then simply call the method with result
+    that the required bound variable is spun up amidst and as part of the 
+    function call simultaneous with destruction of the free variable
+
+  * net result is a lot less declaring of variables 
