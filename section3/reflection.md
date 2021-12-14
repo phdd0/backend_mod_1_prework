@@ -2,29 +2,33 @@
 
 1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
 
-    - Do yourself a favor, read this first before you read my answer: https://arxiv.org/abs/1802.07068
+    - This is a related topic I believe is highly relevant and interesting. Cuts the other way a bit: https://arxiv.org/abs/1802.07068
     - The title of the above is: "Talent vs Luck: the role of randomness in success and failure"
     - Also see this SCIAM piece: https://blogs.scientificamerican.com/beautiful-minds/the-role-of-luck-in-life-success-is-far-greater-than-we-realized/   
     - None of this is new to me or anyone
-    - I first ran into this pyschobabble by Dweck at Microsoft, a HUGE proponent of said psychobabble
-    - The useful stuff she says is obvious to anyone
-    - Other stuff she says wouldn't help anyone really
-    - Realizing I could learn and grow as Dweck wants to "help" us do was fundamental in my childhood instincts and I didn't need modern era corporate psychobabble theories to inculcate the values she espouses that any driven person would apply pretty much by instinct
+    - I've run into others who well meaningly promote Dweck's work but I believe her style of psychology is quite simply a pseudoscience
+    - Perscribing psychologists do something helfpul in the world, though the science part is dictated to them by major manufacturers and regulatory bodies such as FDA
+    - The anectodes in her book are illustrative and illuminating in the telling about inspiring cases of humans doing well at life
+    - Slapping a slogan / marketing campaign / best-seller trifecta on those stories and nailing a PERFECT financial resulting performance is great and all but it's neither noteworthy nor science
+    - The useful stuff she says is obvious to anyone, other stuff she says wouldn't help anyone really
+    - Realizing I could learn and grow as Dweck wants to "help" us do was fundamental in my childhood instincts already
     - If I didn't have a "growth mindset" I'd not have:
         1. Become licensed to operate especially the electric plant of a nuclear PWR
         2. Gotten a Bachelor's in Philosophy and a Master's in Engineering, on purpose
         3. Learned Arabic and left the Nuclear Navy and entered the US Intelligence Community
         4. Applied to Turing at all
         5. Left the Navy the way I did and sliding over to the Army the way I did and having the career I did
-    - Despite the job market, including MSFT, peddling this Dweck twaddle, that market and none of the corporations in it actually believe in the basics of what Dweck alleges
-    - If they did, there wouldn't be 27 million Americans in the "hidden labor market" being ignored by these Dweck disciples because it's patently clear NONE OF THEM believe this "growth mindset" business as if they did they'd hire for ability, aptitude and skill. NOT EXPERIENCE!!!!!!!!!!!!!!!!!!!!!
-    - I had and displayed a "growth mindset" starting in 3rd grade when I got a hold of adult level books around 1984
-    - I LOVE my "growth mindset" but REFUSE to call it that because this psychologist (read: pseudoscience) AND Microsoft does, I think as I've grown into adulthood I simply thought of it as "learning" and thus couldn't generate an insipid boring bestseller for the masses
+        6. Lots of others have done things like this and waaaaaayyyy more amazing things than I've ever done but not because they embodied some marketing and best seller making slogan that people like to believe in
+        7. I see such marketing as propaganda assisting in propping up a corrupt system, so seeing it tends to make me see a bit red...
+        8. I LOVE my "growth mindset" but REFUSE to call it that just because this psychologist and Microsoft do, I think as I've grown into adulthood I simply thought of it as "learning" and thus couldn't generate an insipid bestseller for all the bits that aren't the stories
+        9. Imagine my surprise at discovering for example that MSFT promotes it's drones mindlessly chanting at Vespers "Growth MiiiiiiiiiIIIIIIIIIAAAAHHHIIIINNNNDSet..."
+        10. I'm surprised because neither MSFT nor any other so called proponent of Dweck's "growth mindset" pablum actually HIRES like they believe it - they assume those with transferable skills CAN'T do things well if they haven't done them already for literally years at a time, which is equivalent to them believing employees or candidates CAN'T grow or have grown (profitably while drawing a company salary) the way Dweck wants everyone to believe they can by having a "growth mindset" ON THE JOB, while simultaneously preaching at them they need to think that way "Do as I say, not as I do." Well, labor in America is rightly starting to say no to that sort of tactic again after decades of running scared from "the Trusts". Bring back Teddy!
  
 2. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 
-    - Please see the above. How about that paper on Talent vs Luck? The did the sim in NetLogo, a langauge I'm familiar with and have used likely due to my "growth mindset"
-
+    - Please see the above. How about that paper on Talent vs Luck? They did the sim in NetLogo, a langauge I'm familiar with and have used likely due to my "growth mindset" 
+    - I apologize but it's hard to use that term without scare quotes for me; no disrespect implied, it's just the Dweck stuff is a "thing" with me
+    
 3. What is a Hash, and how is it different from an Array?
 
     - a hash is an unordered collection of indexed values, an array is an unordered list of values
