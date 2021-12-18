@@ -1,84 +1,115 @@
 # Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
-# Declare two variables - hero_name AND special_ability - set to strings
+hero_name = "FredTheSnailSlime"
+special_ability = "SLIMERIZE!"
+greeting = "Hello Primate Citizen, I am #{hero_name}"
+catchphrase = "Watch my #{special_ability} Foul Cretin!"
+power = 10
+energy = 100
+full_power = power * 500
+full_energy = energy + 150
+is_human = false
+identity_concealed = true
+arch_enemies = ["GeorgeTheToadTerror", "RandallTheMangyMantis", "EVILSloth"]
+sidekicks = ["CricketCraig", "AntAndy", "RoachRalph"]
 
-# Declare two variables - greeting AND catchphrase
-#   greeting should be assigned to a string that uses interpolation to include the hero_name
-#   catchphrase should be assigned to a string that uses interpolation to include the special_ability
+puts "#{sidekicks[0]}"
+puts "#{arch_enemies[2]}"
 
-# Declare two variables - power AND energy - set to integers
+puts "Here are the Arch Enemies now:"
+puts "#{arch_enemies}"
+arch_enemies.push("TerroristTapir")
+puts "...but now..."
+puts "#{arch_enemies}"
 
-# Declare two variables - full_power AND full_energy
-#   full_power should multiply your current power by 500
-#   full_energy should add 150 to your current energy
+puts "The sidekicks are: #{sidekicks} but wait!..."
+sidekicks.shift
+puts "Now the sidekicks are #{sidekicks}..."
 
-# Declare two variables - is_human and identity_concealed - assigned to booleans
+save_the_day = "ISaveYouGoodlyDarlings!"
+bad_excuse = "Sorry, HOT, gotta pee!"
 
+def assess_situation(danger_level, save_the_day, bad_excuse)
+  if danger_level > 50
+    puts "#{bad_excuse}"
+  elsif danger_level > 9
+    puts "#{save_the_day}"
+  else
+    puts "Meh. Hard pass."
+  end
+end
 
-# Declare two variables - arch_enemies AND sidekicks
-#   arch_enemies should be an array of at least 3 different enemy strings
-#   sidekicks should be an array of at least 3 different sidekick strings
+puts "The following method call has first paramater 51 (> 50) so should be 'gotta pee':"
+puts "assess_situation(51, save_the_day, bad_excuse)"
+assess_situation(51, save_the_day, bad_excuse)
+puts "The following method call has first parameter 50 (~> 50) so should be 'Darlings':"
+puts "assess_situation(50, save_the_day, bad_excuse)"
+assess_situation(50, save_the_day, bad_excuse)
+puts "The following method call has first parameter 9 (~> 9) so should be 'Meh':"
+puts "assess_situation(9, save_the_day, bad_excuse)"
+assess_situation(9, save_the_day, bad_excuse)
 
-# Print the first sidekick to your terminal
+scary_monster = { "name" => "Heffalump", "smell" => "Atrocious", "weight" => 1000000, "cities_destroyed" => ["carthage", "babel", "memphis"], "lucky_numbers" => [7, 5, 3, 9, 13, 119], "address" => { "number" => 221, "street" => "Long Windy Lane", "state" => "CO", "zip" => "88888" }}
 
-# Print the last arch_enemy to the terminal
+class SuperHero
+  def initialize(name, super_power, age)
+    @@name = name
+    @@super_power = super_power
+    @@age = age
+    @arch_nemesis = "The Syntax Error"
+    @power_level = 100
+    @energy_level = 50
+  end
 
-# Write some code to add a new arch_enemy to the arch_enemies array
+  def say_name
+    puts "This thing has spawned a #{@@name}!"
+  end
 
-# Print the arch_enemies array to terminal to ensure you added a new arch_enemey
+  def maximize_energy # should update the energy_level to 1000
+    @energy_level = 1000
+    puts "Energy up to 1 KILO ERG (energy level: #{@energy_level})!"
+  end
 
-# Remove the first sidekick from the sidekicks array
+  def gain_power(addto)
+    @power_level = @power_level + addto
+    puts "Now SamtheNilNewt may #{@@super_power} enemies with a higher power of #{@power_level}!"
+  end
 
-# Print the sidekicks array to terminal to ensure you added a new sidekick
+end
 
-# Create a method called assess_situation that takes three arguments - danger_level, save_the_day, bad_excuse
-#   - danger_level should be an integer
-#   - save_the_day should be a string a hero would say once they save the day 
-#   - bad_excuse should be a string a hero would say if they are too afraid of the danger_level
+sam = SuperHero.new("SamTheNilNewt", "NILIFY!", 1)
 
-# Your method should include an if/else statement that meets the following criteria
-#   - Danger levels that are above 50 are too scary for your hero. Any danger level that is above 50 should result in printing the bad_excuse to the terminal
-#   - Anything danger_level that is between 10 and 50 should result in printing the save_the_day string to the terminal
-#   - If the danger_level is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the terminal.
+sam.say_name
+puts "Now I will ERG UP!"
+sam.maximize_energy
 
-#Test Cases
-announcement = 'Never fear, the Courageous Curly Bracket is here!'
-excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
-# assess_situation(99, announcement, excuse) > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
-#assess_situation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
-#assess_situation(3, announcement, excuse) > should print - "Meh. Hard pass."
+tim = SuperHero.new("TimTheTextTrim", "CONCATENATE!", 2)
+tim.say_name
 
-# Declare a new variable - scary_monster - assigned to an hash with the following key/values
-#   - name (string)
-#   - smell (string)
-#   - weight (integer)
-#   - citiesDestroyed (array)
-#   - luckyNumbers (array)
-#   - address (hash with following key/values: number , street , state, zip)
+sam.gain_power(563)
 
+#############################            Reflection           ################################
 
-# Create a new class called SuperHero
-# - Your class should have the following DYNAMIC values
-#   - name 
-#   - super_power
-#   - age 
-# - Your class should have the following STATIC values
-#   - arch_nemesis, assigned to "The Syntax Error"
-#   - power_level = 100
-#   - energy_level = 50 
-
-# - Create the following class methods
-#   - say_name, should print the hero's name to the terminal
-#   - maximize_energy, should update the energy_level to 1000
-#   - gain_power, should take an argument of a number and INCREASE the power_level by that number
-
-# - Create 2 instances of your SuperHero class
-
-
-# Reflection
 # What parts were most difficult about this exerise?
+
+    # The hardest part was figuring out where outputs should go given where the variables are
+    # and how they behave, but hey now I really get the static vs. dynamic part: The class "@@"
+    # variables are "dynamic" since they are updatable as arguments every time .new >> .initialize
+    # gets called and set for the class instance BY those arguments. The instance or object "@" 
+    # variables only apply to the specific instance created, like 'sam' and are not updatable by 
+    # argument, each instantiation of the class gets power and energy levels of 100 and 50 
+    # respectively once spawned but the name, super power and age dynamic class variables are 
+    # assigned by argument when calling Class.new
+    # Really then the only 'hard' part was really figuring out how to make the methods work with
+    # variable referencing
 
 # What parts felt most comfortable to you?
 
+    # Setting variables and putsing them all day is pretty old hat now
+
 # What skills do you need to continue to practice before starting Mod 1?
 
+    # I will continue to work to understand Ruby structure and how the technical vocabulary 
+    # describes the language and what it does - systems make everything easier
+    # Since Class and methods and attributes are so fundamental to modeling I'll be doing a lot
+    # of reading even down into the computer science issues if I can regarding Ruby
